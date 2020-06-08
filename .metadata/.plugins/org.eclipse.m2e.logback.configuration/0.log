@@ -638,3 +638,4 @@ java.io.FileNotFoundException: C:\Users\wet57\.m2\repository\org\apache\pdfbox\p
 2020-06-08 22:54:44,284 [Worker-326: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
 2020-06-08 22:54:44,295 [Worker-326: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\wet57\eclipse-workspace\opensrcproject\opensrcproject\src\main\resources
 2020-06-08 22:54:44,296 [Worker-326: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-06-08 22:54:44,307 [Worker-326: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\wet57\eclipse-workspace\opensrcproject\opensrcproject\src\test\resources
