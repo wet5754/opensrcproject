@@ -3,22 +3,20 @@ package opensrcproject;
 import java.util.ArrayList;
 import java.util.List;
 
-import javax.swing.JFrame;
-
 import org.knowm.xchart.XChartPanel;
 import org.knowm.xchart.XYChart;
 import org.knowm.xchart.XYChartBuilder;
 import org.knowm.xchart.XYSeries;
 import org.knowm.xchart.style.markers.SeriesMarkers;
 
-public class Chart extends JFrame{
+public class Chart{
 	private int numChart =1;
 	private XYChart chart;
 	private List<XYChart> charts = new ArrayList();
 	private XChartPanel<XYChart> chartdata;
 	private String keyword;
 	
-	Chart(){
+	Chart(String keyword){
 		NaverAPI temp = new NaverAPI(keyword);
 		for(int i =0;i<numChart;i++) {
 			chart = new XYChartBuilder().xAxisTitle("X").yAxisTitle("Y").width(600).height(400).build();

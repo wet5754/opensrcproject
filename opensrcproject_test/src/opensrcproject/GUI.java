@@ -52,8 +52,8 @@ public class GUI extends JFrame implements ActionListener{
 		// TODO Auto-generated method stub
 		if(e.getSource()==btn) {
 			
-			Chart temp = new Chart();
-			temp.setKeyword(keywordfield.getText());
+			Chart temp = new Chart(keywordfield.getText());
+//			temp.setKeyword(keywordfield.getText());
 			panel2.add(temp.data());
 			panel2.revalidate();// 지연 자동 레이아웃
 		}
