@@ -20,7 +20,7 @@ public class GUI extends JFrame implements ActionListener{
 	JButton btn;
 	GUI(){
 		super("chart");
-		this.setSize(500,500);
+		this.setSize(700,500);
 		this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		main_frame();
 		this.setVisible(true);
@@ -40,8 +40,8 @@ public class GUI extends JFrame implements ActionListener{
 		btn.addActionListener(this);
 		panel1.add(btn);
 		
-		textfield = new JTextArea();
-		panel2.add(textfield,BorderLayout.CENTER);
+//		textfield = new JTextArea();
+//		panel2.add(textfield,BorderLayout.CENTER);
 		
 		frame.add(panel1,BorderLayout.NORTH);
 		frame.add(panel2,BorderLayout.CENTER);
@@ -51,9 +51,11 @@ public class GUI extends JFrame implements ActionListener{
 	public void actionPerformed(ActionEvent e) {
 		// TODO Auto-generated method stub
 		if(e.getSource()==btn) {
-			NaverAPI temp = new NaverAPI(keywordfield.getText());
-			textfield.setText(temp.getResponse());
-			textfield.repaint();
+			
+			Chart temp = new Chart();
+			temp.setKeyword(keywordfield.getText());
+			panel2.add(temp.data());
+			panel2.revalidate();// 지연 자동 레이아웃
 		}
 	}
 
