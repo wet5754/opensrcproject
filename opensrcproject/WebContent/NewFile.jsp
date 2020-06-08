@@ -1,7 +1,9 @@
 <%@ page language="java" contentType="text/html; charset=EUC-KR"
 	pageEncoding="EUC-KR"%>
 <!DOCTYPE html>
-<%@ page import="opensrcproject.TestObject" %>
+<%@ page import="opensrcproject.NaverAPI" %>
+
+
 <html>
 <head>
 <meta charset="utf-8">
@@ -24,8 +26,23 @@
 		<div id="controlsArea" style="padding: 0px 20px 0px 0px;"></div>
 	</div>
 	
-	<input type="text" width=200 id="myName">
-	<button id="button1" onclick="button1_click();">검색</button>
+	<!--  <input type="text" width=200 id="myName">-->
+	<form action="<%=request.getContextPath()%>/NewFile.jsp" method="post">
+		검색 키워드 : <input type="text" name="one"> <input type="submit"
+			value="검색">
+	</form>
+	<%
+	String keyword = request.getParameter("one");
+	NaverAPI t = new NaverAPI(keyword);
+	double[] ratio=new double[30];
+	for(int i=0;i<30;i++){
+		ratio[i]=t.getR()[i];
+	}
+
+	%>
+	<b></b>
+	<button id="button1" onclick="button1_click();">그래프</button>
+
 </body>
 
 <script>
@@ -34,7 +51,12 @@
  
     chartDrow : function(){
         var chartData = '';
- 
+		var temp = new Array();
+		
+		<%for ( int s=0 ; s<30; s++ ){%>
+		temp.push(<%=ratio[s]%>);
+		<%}%>
+		
         //날짜형식 변경하고 싶으시면 이 부분 수정하세요.
         var chartDateformat     = 'yyyy년MM월dd일';
         //라인차트의 라인 수
@@ -48,7 +70,7 @@
           var data = new google.visualization.DataTable();
           //그래프에 표시할 컬럼 추가
           data.addColumn('datetime' , '날짜');
-          data.addColumn('number'   , '남성');
+          data.addColumn('number'   , '남자');
           data.addColumn('number'   , '여성');
           data.addColumn('number'   , '전체');
  
@@ -56,7 +78,7 @@
           var dataRow = [];
  
           for(var i = 0; i <= 29; i++){ //랜덤 데이터 생성
-            var total   = Math.floor(Math.random() * 300) + 1;
+            var total   = temp[i] + 1;
             var man     = Math.floor(Math.random() * total) + 1;
             var woman   = total - man;
  

@@ -10,8 +10,14 @@ import java.util.Map;
 
 public class NaverAPI {
 	private String responseBody;
+	private DataParser data;
+	private double[] temp;
 
-	NaverAPI(String keyword) {
+	public NaverAPI(String keyword) {
+		temp = new double[30];
+        for(int i=0;i<30;i++) {
+        	temp[i] = 0;
+        }
         String clientId = "HJkHxgJ4FbnBrihGey_o"; // 애플리케이션 클라이언트 아이디
         String clientSecret = "txaBaD4bW5"; // 애플리케이션 클라이언트 시크릿
 
@@ -34,9 +40,17 @@ public class NaverAPI {
         responseBody = post(apiUrl, requestHeaders, requestBody);
         System.out.println(keyword+responseBody);
         
-        DataParser data = new DataParser(responseBody);
-        
+        data = new DataParser(responseBody);
+        for(int i=0;i<30;i++) {
+        	temp[i] = data.getR()[i];
+        }
     }
+	public String[] getP() {
+		return data.getP();
+	}
+	public double[] getR() {
+		return this.temp;
+	}
 	public String getResponse() {
 		return this.responseBody;
 	}

@@ -35,7 +35,7 @@ public class NaverAPI {
         System.out.println(keyword+responseBody);
         
         DataParser data = new DataParser(responseBody);
-        
+        System.out.println(data.getR().length);
     }
 	public String getResponse() {
 		return this.responseBody;
