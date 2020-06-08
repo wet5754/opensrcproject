@@ -1,2 +1,216 @@
 2020-06-07 15:15:57,764 [Worker-3: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
 2020-06-07 15:29:53,256 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2020-06-08 13:05:32,464 [Worker-23: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2020-06-08 13:07:11,264 [Worker-24: Enabling Maven Dependency Management] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: opensrcproject:opensrcproject:0.0.1-SNAPSHOT @ C:\Users\wet57\eclipse-workspace\opensrcproject\opensrcproject\pom.xml.
+2020-06-08 13:07:13,877 [Worker-29: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-06-08 13:07:13,889 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\wet57\eclipse-workspace\opensrcproject\opensrcproject\src\main\resources
+2020-06-08 13:07:13,891 [Worker-29: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-06-08 13:07:13,903 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\wet57\eclipse-workspace\opensrcproject\opensrcproject\src\test\resources
+2020-06-08 13:07:13,954 [Worker-24: Enabling Maven Dependency Management] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /opensrcproject/src
+2020-06-08 13:07:13,958 [Worker-24: Enabling Maven Dependency Management] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Not adding source folder /opensrcproject/src/test/java because it overlaps with /opensrcproject/src
+2020-06-08 13:07:14,140 [Worker-24: Enabling Maven Dependency Management] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2020-06-08 13:07:15,100 [Worker-24: Enabling Maven Dependency Management] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: opensrcproject:opensrcproject:0.0.1-SNAPSHOT @ C:\Users\wet57\eclipse-workspace\opensrcproject\opensrcproject\pom.xml.
+2020-06-08 13:07:15,681 [Worker-30: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-06-08 13:07:15,695 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\wet57\eclipse-workspace\opensrcproject\opensrcproject\src\main\resources
+2020-06-08 13:07:15,697 [Worker-30: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-06-08 13:07:15,711 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\wet57\eclipse-workspace\opensrcproject\opensrcproject\src\test\resources
+2020-06-08 13:07:16,088 [Worker-24: Enabling Maven Dependency Management] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /opensrcproject/src
+2020-06-08 13:07:16,091 [Worker-24: Enabling Maven Dependency Management] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Not adding source folder /opensrcproject/src/test/java because it overlaps with /opensrcproject/src
+2020-06-08 13:07:16,195 [Worker-24: Enabling Maven Dependency Management] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 2 sec
+2020-06-08 13:07:17,185 [Worker-25: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-06-08 13:07:17,195 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\wet57\eclipse-workspace\opensrcproject\opensrcproject\src\main\resources
+2020-06-08 13:07:17,196 [Worker-25: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-06-08 13:07:17,206 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\wet57\eclipse-workspace\opensrcproject\opensrcproject\src\test\resources
+2020-06-08 13:11:56,777 [Worker-34: Launching compile] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\wet57\eclipse-workspace\opensrcproject\opensrcproject
+2020-06-08 13:11:56,784 [Worker-34: Launching compile] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B compile
+2020-06-08 13:11:57,643 [Worker-35: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: opensrcproject:opensrcproject:0.0.1-SNAPSHOT @ C:\Users\wet57\eclipse-workspace\opensrcproject\opensrcproject\pom.xml.
+2020-06-08 13:11:57,997 [Worker-35: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-06-08 13:11:58,015 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\wet57\eclipse-workspace\opensrcproject\opensrcproject\src\main\resources
+2020-06-08 13:11:58,017 [Worker-35: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-06-08 13:11:58,035 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\wet57\eclipse-workspace\opensrcproject\opensrcproject\src\test\resources
+2020-06-08 13:14:52,707 [Worker-31: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: opensrcproject:opensrcproject:0.0.1-SNAPSHOT @ C:\Users\wet57\eclipse-workspace\opensrcproject\opensrcproject\pom.xml.
+2020-06-08 13:14:53,012 [Worker-31: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-06-08 13:14:53,022 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\wet57\eclipse-workspace\opensrcproject\opensrcproject\src\main\resources
+2020-06-08 13:14:53,023 [Worker-31: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-06-08 13:14:53,035 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\wet57\eclipse-workspace\opensrcproject\opensrcproject\src\test\resources
+2020-06-08 13:15:59,813 [Worker-37: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: opensrcproject:opensrcproject:0.0.1-SNAPSHOT @ C:\Users\wet57\eclipse-workspace\opensrcproject\opensrcproject\pom.xml.
+2020-06-08 13:16:00,320 [Worker-26: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/knowm/xchart/xchart/3.6.3/xchart-3.6.3.pom
+2020-06-08 13:16:00,670 [Worker-26: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/knowm/xchart/xchart/3.6.3/xchart-3.6.3.pom
+2020-06-08 13:16:00,752 [Worker-37: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/knowm/xchart/xchart/3.6.3/xchart-3.6.3.pom
+2020-06-08 13:16:00,844 [Worker-26: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/knowm/xchart/xchart-parent/3.6.3/xchart-parent-3.6.3.pom
+2020-06-08 13:16:01,031 [Worker-26: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/knowm/xchart/xchart-parent/3.6.3/xchart-parent-3.6.3.pom
+2020-06-08 13:16:01,124 [Worker-37: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/knowm/xchart/xchart/3.6.3/xchart-3.6.3.pom
+2020-06-08 13:16:01,207 [Worker-26: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/de/erichseifert/vectorgraphics2d/VectorGraphics2D/0.13/VectorGraphics2D-0.13.pom
+2020-06-08 13:16:01,306 [Worker-37: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/de/erichseifert/vectorgraphics2d/VectorGraphics2D/0.13/VectorGraphics2D-0.13.pom
+2020-06-08 13:16:01,387 [Worker-26: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/de/erichseifert/vectorgraphics2d/VectorGraphics2D/0.13/VectorGraphics2D-0.13.pom
+2020-06-08 13:16:01,499 [Worker-37: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/de/erichseifert/vectorgraphics2d/VectorGraphics2D/0.13/VectorGraphics2D-0.13.pom
+2020-06-08 13:16:01,568 [Worker-26: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/de/rototor/pdfbox/graphics2d/0.25/graphics2d-0.25.pom
+2020-06-08 13:16:01,661 [Worker-37: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/de/rototor/pdfbox/graphics2d/0.25/graphics2d-0.25.pom
+2020-06-08 13:16:01,766 [Worker-26: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/de/rototor/pdfbox/graphics2d/0.25/graphics2d-0.25.pom
+2020-06-08 13:16:01,829 [Worker-37: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/de/rototor/pdfbox/graphics2d/0.25/graphics2d-0.25.pom
+2020-06-08 13:16:01,981 [Worker-26: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/pdfbox/pdfbox/2.0.17/pdfbox-2.0.17.pom
+2020-06-08 13:16:01,996 [Worker-37: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/pdfbox/pdfbox/2.0.17/pdfbox-2.0.17.pom
+2020-06-08 13:16:02,328 [Worker-37: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/pdfbox/pdfbox/2.0.17/pdfbox-2.0.17.pom
+2020-06-08 13:16:02,342 [Worker-26: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/pdfbox/pdfbox/2.0.17/pdfbox-2.0.17.pom
+2020-06-08 13:16:02,513 [Worker-37: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/pdfbox/pdfbox-parent/2.0.17/pdfbox-parent-2.0.17.pom
+2020-06-08 13:16:02,515 [Worker-26: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/pdfbox/pdfbox-parent/2.0.17/pdfbox-parent-2.0.17.pom
+2020-06-08 13:16:02,699 [Worker-37: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/pdfbox/pdfbox-parent/2.0.17/pdfbox-parent-2.0.17.pom
+2020-06-08 13:16:02,715 [Worker-26: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/pdfbox/pdfbox-parent/2.0.17/pdfbox-parent-2.0.17.pom
+2020-06-08 13:16:02,727 [Worker-26: reload maven project] WARN  o.e.a.i.impl.TrackingFileManager - Failed to write tracking file C:\Users\wet57\.m2\repository\org\apache\pdfbox\pdfbox-parent\2.0.17\pdfbox-parent-2.0.17.pom.lastUpdated
+java.io.FileNotFoundException: C:\Users\wet57\.m2\repository\org\apache\pdfbox\pdfbox-parent\2.0.17\pdfbox-parent-2.0.17.pom.lastUpdated (다른 프로세스가 파일을 사용 중이기 때문에 프로세스가 액세스 할 수 없습니다)
+	at java.base/java.io.RandomAccessFile.open0(Native Method) ~[na:na]
+	at java.base/java.io.RandomAccessFile.open(RandomAccessFile.java:347) ~[na:na]
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:261) ~[na:na]
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:216) ~[na:na]
+	at org.eclipse.aether.internal.impl.TrackingFileManager.update(TrackingFileManager.java:99) ~[maven-resolver-impl-1.4.1.jar:1.4.1]
+	at org.eclipse.aether.internal.impl.DefaultUpdateCheckManager.write(DefaultUpdateCheckManager.java:590) ~[maven-resolver-impl-1.4.1.jar:1.4.1]
+	at org.eclipse.aether.internal.impl.DefaultUpdateCheckManager.touchArtifact(DefaultUpdateCheckManager.java:526) ~[maven-resolver-impl-1.4.1.jar:1.4.1]
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.evaluateDownloads(DefaultArtifactResolver.java:619) ~[maven-resolver-impl-1.4.1.jar:1.4.1]
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.performDownloads(DefaultArtifactResolver.java:510) ~[maven-resolver-impl-1.4.1.jar:1.4.1]
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolve(DefaultArtifactResolver.java:401) ~[maven-resolver-impl-1.4.1.jar:1.4.1]
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolveArtifacts(DefaultArtifactResolver.java:229) ~[maven-resolver-impl-1.4.1.jar:1.4.1]
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolveArtifact(DefaultArtifactResolver.java:207) ~[maven-resolver-impl-1.4.1.jar:1.4.1]
+	at org.apache.maven.repository.internal.DefaultModelResolver.resolveModel(DefaultModelResolver.java:172) ~[maven-resolver-provider-3.6.3.jar:3.6.3]
+	at org.apache.maven.repository.internal.DefaultModelResolver.resolveModel(DefaultModelResolver.java:222) ~[maven-resolver-provider-3.6.3.jar:3.6.3]
+	at org.apache.maven.model.building.DefaultModelBuilder.readParentExternally(DefaultModelBuilder.java:1070) ~[maven-model-builder-3.6.3.jar:3.6.3]
+	at org.apache.maven.model.building.DefaultModelBuilder.readParent(DefaultModelBuilder.java:846) ~[maven-model-builder-3.6.3.jar:3.6.3]
+	at org.apache.maven.model.building.DefaultModelBuilder.build(DefaultModelBuilder.java:337) ~[maven-model-builder-3.6.3.jar:3.6.3]
+	at org.apache.maven.repository.internal.DefaultArtifactDescriptorReader.loadPom(DefaultArtifactDescriptorReader.java:292) ~[maven-resolver-provider-3.6.3.jar:3.6.3]
+	at org.apache.maven.repository.internal.DefaultArtifactDescriptorReader.readArtifactDescriptor(DefaultArtifactDescriptorReader.java:171) ~[maven-resolver-provider-3.6.3.jar:3.6.3]
+	at org.eclipse.aether.internal.impl.collect.DefaultDependencyCollector.resolveCachedArtifactDescriptor(DefaultDependencyCollector.java:541) ~[maven-resolver-impl-1.4.1.jar:1.4.1]
+	at org.eclipse.aether.internal.impl.collect.DefaultDependencyCollector.getArtifactDescriptorResult(DefaultDependencyCollector.java:524) ~[maven-resolver-impl-1.4.1.jar:1.4.1]
+	at org.eclipse.aether.internal.impl.collect.DefaultDependencyCollector.processDependency(DefaultDependencyCollector.java:412) ~[maven-resolver-impl-1.4.1.jar:1.4.1]
+	at org.eclipse.aether.internal.impl.collect.DefaultDependencyCollector.processDependency(DefaultDependencyCollector.java:365) ~[maven-resolver-impl-1.4.1.jar:1.4.1]
+	at org.eclipse.aether.internal.impl.collect.DefaultDependencyCollector.process(DefaultDependencyCollector.java:352) ~[maven-resolver-impl-1.4.1.jar:1.4.1]
+	at org.eclipse.aether.internal.impl.collect.DefaultDependencyCollector.doRecurse(DefaultDependencyCollector.java:509) ~[maven-resolver-impl-1.4.1.jar:1.4.1]
+	at org.eclipse.aether.internal.impl.collect.DefaultDependencyCollector.processDependency(DefaultDependencyCollector.java:461) ~[maven-resolver-impl-1.4.1.jar:1.4.1]
+	at org.eclipse.aether.internal.impl.collect.DefaultDependencyCollector.processDependency(DefaultDependencyCollector.java:365) ~[maven-resolver-impl-1.4.1.jar:1.4.1]
+	at org.eclipse.aether.internal.impl.collect.DefaultDependencyCollector.process(DefaultDependencyCollector.java:352) ~[maven-resolver-impl-1.4.1.jar:1.4.1]
+	at org.eclipse.aether.internal.impl.collect.DefaultDependencyCollector.doRecurse(DefaultDependencyCollector.java:509) ~[maven-resolver-impl-1.4.1.jar:1.4.1]
+	at org.eclipse.aether.internal.impl.collect.DefaultDependencyCollector.processDependency(DefaultDependencyCollector.java:461) ~[maven-resolver-impl-1.4.1.jar:1.4.1]
+	at org.eclipse.aether.internal.impl.collect.DefaultDependencyCollector.processDependency(DefaultDependencyCollector.java:365) ~[maven-resolver-impl-1.4.1.jar:1.4.1]
+	at org.eclipse.aether.internal.impl.collect.DefaultDependencyCollector.process(DefaultDependencyCollector.java:352) ~[maven-resolver-impl-1.4.1.jar:1.4.1]
+	at org.eclipse.aether.internal.impl.collect.DefaultDependencyCollector.collectDependencies(DefaultDependencyCollector.java:254) ~[maven-resolver-impl-1.4.1.jar:1.4.1]
+	at org.eclipse.aether.internal.impl.DefaultRepositorySystem.collectDependencies(DefaultRepositorySystem.java:284) ~[maven-resolver-impl-1.4.1.jar:1.4.1]
+	at org.apache.maven.project.DefaultProjectDependenciesResolver.resolve(DefaultProjectDependenciesResolver.java:169) ~[maven-core-3.6.3.jar:3.6.3]
+	at org.apache.maven.project.DefaultProjectBuilder.resolveDependencies(DefaultProjectBuilder.java:227) ~[maven-core-3.6.3.jar:3.6.3]
+	at org.apache.maven.project.DefaultProjectBuilder.build(DefaultProjectBuilder.java:644) ~[maven-core-3.6.3.jar:3.6.3]
+	at org.apache.maven.project.DefaultProjectBuilder.build(DefaultProjectBuilder.java:387) ~[maven-core-3.6.3.jar:3.6.3]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.readMavenProjects(MavenImpl.java:658) ~[na:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.lambda$13(ProjectRegistryManager.java:867) ~[na:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:179) ~[na:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:153) ~[na:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:101) ~[na:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.execute(ProjectRegistryManager.java:1022) ~[na:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.readProjectsWithDependencies(ProjectRegistryManager.java:863) ~[na:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.readProjectWithDependencies(ProjectRegistryManager.java:832) ~[na:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.lambda$22(ProjectRegistryManager.java:1064) ~[na:na]
+	at com.google.common.cache.LocalCache$LocalManualCache$1.load(LocalCache.java:4878) ~[guava-25.1-android.jar:na]
+	at com.google.common.cache.LocalCache$LoadingValueReference.loadFuture(LocalCache.java:3529) ~[guava-25.1-android.jar:na]
+	at com.google.common.cache.LocalCache$Segment.loadSync(LocalCache.java:2278) ~[guava-25.1-android.jar:na]
+	at com.google.common.cache.LocalCache$Segment.lockedGetOrLoad(LocalCache.java:2155) ~[guava-25.1-android.jar:na]
+	at com.google.common.cache.LocalCache$Segment.get(LocalCache.java:2045) ~[guava-25.1-android.jar:na]
+	at com.google.common.cache.LocalCache.get(LocalCache.java:3953) ~[guava-25.1-android.jar:na]
+	at com.google.common.cache.LocalCache$LocalManualCache.get(LocalCache.java:4873) ~[guava-25.1-android.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.getMavenProject(ProjectRegistryManager.java:1063) ~[na:na]
+	at org.eclipse.m2e.core.internal.project.registry.MavenProjectFacade.getMavenProject(MavenProjectFacade.java:244) ~[na:na]
+	at org.eclipse.m2e.core.ui.internal.actions.SelectionUtil.getMavenProject(SelectionUtil.java:261) ~[org.eclipse.m2e.core.ui_1.15.0.20200305-1308.jar:na]
+	at org.eclipse.m2e.editor.pom.MavenPomEditor.readMavenProject(MavenPomEditor.java:717) ~[na:na]
+	at org.eclipse.m2e.editor.pom.MavenPomEditor$3.run(MavenPomEditor.java:1043) ~[na:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63) ~[org.eclipse.core.jobs_3.10.700.v20200106-1020.jar:na]
+2020-06-08 13:16:02,893 [Worker-37: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/pdfbox/fontbox/2.0.17/fontbox-2.0.17.pom
+2020-06-08 13:16:02,894 [Worker-26: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/pdfbox/fontbox/2.0.17/fontbox-2.0.17.pom
+2020-06-08 13:16:03,070 [Worker-26: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/pdfbox/fontbox/2.0.17/fontbox-2.0.17.pom
+2020-06-08 13:16:03,078 [Worker-37: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/pdfbox/fontbox/2.0.17/fontbox-2.0.17.pom
+2020-06-08 13:16:03,242 [Worker-26: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/commons-logging/commons-logging/1.2/commons-logging-1.2.pom
+2020-06-08 13:16:03,253 [Worker-37: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/commons-logging/commons-logging/1.2/commons-logging-1.2.pom
+2020-06-08 13:16:03,432 [Worker-26: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/commons-logging/commons-logging/1.2/commons-logging-1.2.pom
+2020-06-08 13:16:03,450 [Worker-37: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/commons-logging/commons-logging/1.2/commons-logging-1.2.pom
+2020-06-08 13:16:03,604 [Worker-26: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/commons/commons-parent/34/commons-parent-34.pom
+2020-06-08 13:16:03,639 [Worker-37: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/commons/commons-parent/34/commons-parent-34.pom
+2020-06-08 13:16:03,968 [Worker-26: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/commons/commons-parent/34/commons-parent-34.pom
+2020-06-08 13:16:04,025 [Worker-37: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/commons/commons-parent/34/commons-parent-34.pom
+2020-06-08 13:16:04,187 [Worker-26: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/madgag/animated-gif-lib/1.4/animated-gif-lib-1.4.pom
+2020-06-08 13:16:04,205 [Worker-37: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/madgag/animated-gif-lib/1.4/animated-gif-lib-1.4.pom
+2020-06-08 13:16:04,391 [Worker-26: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/madgag/animated-gif-lib/1.4/animated-gif-lib-1.4.pom
+2020-06-08 13:16:04,430 [Worker-37: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/madgag/animated-gif-lib/1.4/animated-gif-lib-1.4.pom
+2020-06-08 13:16:04,608 [AetherRepositoryConnector-repo.maven.apache.org-0-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/de/erichseifert/vectorgraphics2d/VectorGraphics2D/0.13/VectorGraphics2D-0.13.jar
+2020-06-08 13:16:04,629 [AetherRepositoryConnector-repo.maven.apache.org-1-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/knowm/xchart/xchart/3.6.3/xchart-3.6.3.jar
+2020-06-08 13:16:04,757 [AetherRepositoryConnector-repo.maven.apache.org-0-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/knowm/xchart/xchart/3.6.3/xchart-3.6.3.jar
+2020-06-08 13:16:04,930 [AetherRepositoryConnector-repo.maven.apache.org-0-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/de/rototor/pdfbox/graphics2d/0.25/graphics2d-0.25.jar
+2020-06-08 13:16:04,930 [AetherRepositoryConnector-repo.maven.apache.org-0-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/pdfbox/pdfbox/2.0.17/pdfbox-2.0.17.jar
+2020-06-08 13:16:04,930 [AetherRepositoryConnector-repo.maven.apache.org-0-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/pdfbox/fontbox/2.0.17/fontbox-2.0.17.jar
+2020-06-08 13:16:05,062 [AetherRepositoryConnector-repo.maven.apache.org-1-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/pdfbox/pdfbox/2.0.17/pdfbox-2.0.17.jar
+2020-06-08 13:16:05,062 [AetherRepositoryConnector-repo.maven.apache.org-1-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/de/rototor/pdfbox/graphics2d/0.25/graphics2d-0.25.jar
+2020-06-08 13:16:05,062 [AetherRepositoryConnector-repo.maven.apache.org-1-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/de/erichseifert/vectorgraphics2d/VectorGraphics2D/0.13/VectorGraphics2D-0.13.jar
+2020-06-08 13:16:05,062 [AetherRepositoryConnector-repo.maven.apache.org-1-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/pdfbox/fontbox/2.0.17/fontbox-2.0.17.jar
+2020-06-08 13:16:05,300 [AetherRepositoryConnector-repo.maven.apache.org-0-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/de/erichseifert/vectorgraphics2d/VectorGraphics2D/0.13/VectorGraphics2D-0.13.jar
+2020-06-08 13:16:05,925 [AetherRepositoryConnector-repo.maven.apache.org-0-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/commons-logging/commons-logging/1.2/commons-logging-1.2.jar
+2020-06-08 13:16:05,952 [AetherRepositoryConnector-repo.maven.apache.org-0-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/de/rototor/pdfbox/graphics2d/0.25/graphics2d-0.25.jar
+2020-06-08 13:16:06,064 [AetherRepositoryConnector-repo.maven.apache.org-1-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/de/rototor/pdfbox/graphics2d/0.25/graphics2d-0.25.jar
+2020-06-08 13:16:06,065 [AetherRepositoryConnector-repo.maven.apache.org-0-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/knowm/xchart/xchart/3.6.3/xchart-3.6.3.jar
+2020-06-08 13:16:06,405 [AetherRepositoryConnector-repo.maven.apache.org-1-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/de/erichseifert/vectorgraphics2d/VectorGraphics2D/0.13/VectorGraphics2D-0.13.jar
+2020-06-08 13:16:06,417 [AetherRepositoryConnector-repo.maven.apache.org-0-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/madgag/animated-gif-lib/1.4/animated-gif-lib-1.4.jar
+2020-06-08 13:16:06,679 [AetherRepositoryConnector-repo.maven.apache.org-0-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/commons-logging/commons-logging/1.2/commons-logging-1.2.jar
+2020-06-08 13:16:07,035 [AetherRepositoryConnector-repo.maven.apache.org-1-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/commons-logging/commons-logging/1.2/commons-logging-1.2.jar
+2020-06-08 13:16:07,069 [AetherRepositoryConnector-repo.maven.apache.org-1-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/knowm/xchart/xchart/3.6.3/xchart-3.6.3.jar
+2020-06-08 13:16:07,346 [AetherRepositoryConnector-repo.maven.apache.org-1-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/madgag/animated-gif-lib/1.4/animated-gif-lib-1.4.jar
+2020-06-08 13:16:07,758 [AetherRepositoryConnector-repo.maven.apache.org-0-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/madgag/animated-gif-lib/1.4/animated-gif-lib-1.4.jar
+2020-06-08 13:16:07,850 [AetherRepositoryConnector-repo.maven.apache.org-1-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/commons-logging/commons-logging/1.2/commons-logging-1.2.jar
+2020-06-08 13:16:08,303 [AetherRepositoryConnector-repo.maven.apache.org-1-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/madgag/animated-gif-lib/1.4/animated-gif-lib-1.4.jar
+2020-06-08 13:16:08,615 [AetherRepositoryConnector-repo.maven.apache.org-0-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/pdfbox/fontbox/2.0.17/fontbox-2.0.17.jar
+2020-06-08 13:16:09,224 [AetherRepositoryConnector-repo.maven.apache.org-0-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/pdfbox/pdfbox/2.0.17/pdfbox-2.0.17.jar
+2020-06-08 13:16:11,088 [AetherRepositoryConnector-repo.maven.apache.org-1-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/pdfbox/fontbox/2.0.17/fontbox-2.0.17.jar
+2020-06-08 13:16:12,455 [AetherRepositoryConnector-repo.maven.apache.org-1-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/pdfbox/pdfbox/2.0.17/pdfbox-2.0.17.jar
+2020-06-08 13:16:13,114 [Worker-37: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-06-08 13:16:13,126 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\wet57\eclipse-workspace\opensrcproject\opensrcproject\src\main\resources
+2020-06-08 13:16:13,128 [Worker-37: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-06-08 13:16:13,139 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\wet57\eclipse-workspace\opensrcproject\opensrcproject\src\test\resources
+2020-06-08 13:16:14,569 [Worker-38: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-06-08 13:16:14,581 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\wet57\eclipse-workspace\opensrcproject\opensrcproject\src\main\resources
+2020-06-08 13:16:14,582 [Worker-38: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-06-08 13:16:14,594 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\wet57\eclipse-workspace\opensrcproject\opensrcproject\src\test\resources
+2020-06-08 13:16:14,762 [Worker-31: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/knowm/xchart/xchart/3.6.3/xchart-3.6.3-sources.jar
+2020-06-08 13:16:15,633 [Worker-31: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/knowm/xchart/xchart/3.6.3/xchart-3.6.3-sources.jar
+2020-06-08 13:16:15,784 [Worker-31: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.knowm.xchart:xchart:3.6.3
+2020-06-08 13:16:16,521 [Worker-31: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/de/erichseifert/vectorgraphics2d/VectorGraphics2D/0.13/VectorGraphics2D-0.13-sources.jar
+2020-06-08 13:16:17,180 [Worker-31: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/de/erichseifert/vectorgraphics2d/VectorGraphics2D/0.13/VectorGraphics2D-0.13-sources.jar
+2020-06-08 13:16:17,309 [Worker-31: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for de.erichseifert.vectorgraphics2d:VectorGraphics2D:0.13
+2020-06-08 13:16:17,970 [Worker-31: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/de/rototor/pdfbox/graphics2d/0.25/graphics2d-0.25-sources.jar
+2020-06-08 13:16:18,443 [Worker-31: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/de/rototor/pdfbox/graphics2d/0.25/graphics2d-0.25-sources.jar
+2020-06-08 13:16:18,583 [Worker-31: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for de.rototor.pdfbox:graphics2d:0.25
+2020-06-08 13:16:19,256 [Worker-31: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/pdfbox/pdfbox/2.0.17/pdfbox-2.0.17-sources.jar
+2020-06-08 13:16:25,181 [Worker-31: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/pdfbox/pdfbox/2.0.17/pdfbox-2.0.17-sources.jar
+2020-06-08 13:16:25,332 [Worker-31: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.apache.pdfbox:pdfbox:2.0.17
+2020-06-08 13:16:26,016 [Worker-31: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/pdfbox/fontbox/2.0.17/fontbox-2.0.17-sources.jar
+2020-06-08 13:16:27,987 [Worker-31: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/pdfbox/fontbox/2.0.17/fontbox-2.0.17-sources.jar
+2020-06-08 13:16:28,393 [Worker-31: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.apache.pdfbox:fontbox:2.0.17
+2020-06-08 13:16:29,051 [Worker-31: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/commons-logging/commons-logging/1.2/commons-logging-1.2-sources.jar
+2020-06-08 13:16:29,581 [Worker-31: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/commons-logging/commons-logging/1.2/commons-logging-1.2-sources.jar
+2020-06-08 13:16:29,718 [Worker-31: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for commons-logging:commons-logging:1.2
+2020-06-08 13:16:30,427 [Worker-31: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/madgag/animated-gif-lib/1.4/animated-gif-lib-1.4-sources.jar
+2020-06-08 13:16:30,799 [Worker-31: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/madgag/animated-gif-lib/1.4/animated-gif-lib-1.4-sources.jar
+2020-06-08 13:16:30,936 [Worker-31: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.madgag:animated-gif-lib:1.4
+2020-06-08 13:16:31,188 [Worker-37: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-06-08 13:16:31,204 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\wet57\eclipse-workspace\opensrcproject\opensrcproject\src\main\resources
+2020-06-08 13:16:31,206 [Worker-37: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-06-08 13:16:31,220 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\wet57\eclipse-workspace\opensrcproject\opensrcproject\src\test\resources
+2020-06-08 16:00:14,293 [Worker-97: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-06-08 16:00:14,310 [Worker-97: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\wet57\eclipse-workspace\opensrcproject\opensrcproject\src\main\resources
+2020-06-08 16:00:14,311 [Worker-97: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-06-08 16:00:14,324 [Worker-97: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\wet57\eclipse-workspace\opensrcproject\opensrcproject\src\test\resources
+2020-06-08 16:07:07,760 [Worker-97: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-06-08 16:07:07,775 [Worker-97: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\wet57\eclipse-workspace\opensrcproject\opensrcproject\src\main\resources
+2020-06-08 16:07:07,776 [Worker-97: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-06-08 16:07:07,788 [Worker-97: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\wet57\eclipse-workspace\opensrcproject\opensrcproject\src\test\resources
+2020-06-08 16:07:08,914 [Worker-97: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-06-08 16:07:08,925 [Worker-97: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\wet57\eclipse-workspace\opensrcproject\opensrcproject\src\main\resources
+2020-06-08 16:07:08,926 [Worker-97: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-06-08 16:07:08,938 [Worker-97: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\wet57\eclipse-workspace\opensrcproject\opensrcproject\src\test\resources
+2020-06-08 16:13:37,893 [Worker-101: Launching main] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: opensrcproject:opensrcproject:0.0.1-SNAPSHOT @ C:\Users\wet57\eclipse-workspace\opensrcproject\opensrcproject\pom.xml.
+2020-06-08 16:13:38,982 [Worker-101: Launching main] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-06-08 16:13:38,991 [Worker-101: Launching main] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\wet57\eclipse-workspace\opensrcproject\opensrcproject\src\main\resources
+2020-06-08 16:13:38,993 [Worker-101: Launching main] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-06-08 16:13:39,004 [Worker-101: Launching main] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\wet57\eclipse-workspace\opensrcproject\opensrcproject\src\test\resources
+2020-06-08 16:16:41,576 [Worker-103: Launching main] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-06-08 16:16:41,587 [Worker-103: Launching main] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\wet57\eclipse-workspace\opensrcproject\opensrcproject\src\main\resources
