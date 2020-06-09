@@ -1,22 +1,27 @@
 package opensrcproject;
 
-import java.io.*;
+import java.io.BufferedReader;
+import java.io.DataOutputStream;
+import java.io.IOException;
+import java.io.InputStream;
+import java.io.InputStreamReader;
 import java.net.HttpURLConnection;
 import java.net.MalformedURLException;
 import java.net.URL;
 import java.nio.charset.StandardCharsets;
+import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Map;
 
 public class NaverAPI {
 	private String responseBody;
 	private DataParser data;
-	private double[] temp;
+	private ArrayList temp;
 
 	public NaverAPI(String keyword) {
-		temp = new double[30];
-        for(int i=0;i<30;i++) {
-        	temp[i] = 0;
+		temp = new ArrayList<>();
+        for(int i=0;i<31;i++) {
+        	temp.add((double)1.0);
         }
         String clientId = "HJkHxgJ4FbnBrihGey_o"; // 애플리케이션 클라이언트 아이디
         String clientSecret = "txaBaD4bW5"; // 애플리케이션 클라이언트 시크릿
@@ -27,11 +32,20 @@ public class NaverAPI {
         requestHeaders.put("X-Naver-Client-Id", clientId);
         requestHeaders.put("X-Naver-Client-Secret", clientSecret);
         requestHeaders.put("Content-Type", "application/json");
-
-        String requestBody = "{\"startDate\":\"2017-01-01\"," +
-                "\"endDate\":\"2017-04-30\"," +
-                "\"timeUnit\":\"date\"," +
-                "\"keywordGroups\":[{\"groupName\":"+"\""+keyword+"\"," + "\"keywords\":[\""+keyword+"\",\""+keyword+"\"]}," +
+        // 임시
+        String[] keywordarr = new String[1];
+        keywordarr[0] = "start";
+        
+        if(keyword!=null) {
+        	keywordarr =keyword.split(" ");  
+        }
+        
+        String requestBody = "{\"startDate\":\"2020-05-01\"," +
+                "\"endDate\":\"2020-05-31\"," +
+                "\"timeUnit\":\"date\","+"\"keywordGroups\":[{\"groupName\":"+"\""+keywordarr[0]+"\"," + "\"keywords\":[\"";
+        for(int i =0;i<keywordarr.length;i++) 
+            requestBody+= keywordarr[i]+"\",\"";
+        requestBody+= keywordarr[0]+"\"]}," +
                 "{\"groupName\":\"영어\"," + "\"keywords\":[\"영어\",\"english\"]}]," +
                 "\"device\":\"pc\"," +
                 "\"ages\":[\"1\",\"2\"]," +
@@ -41,14 +55,15 @@ public class NaverAPI {
         System.out.println(keyword+responseBody);
         
         data = new DataParser(responseBody);
-        for(int i=0;i<30;i++) {
-        	temp[i] = data.getR()[i];
+
+        for(int i=0;i<data.getR().size();i++) {
+        	if(i==31) break;
+        	temp.set(i, (double)data.getR().get(i));
         }
-    }
-	public String[] getP() {
-		return data.getP();
+
 	}
-	public double[] getR() {
+
+	public ArrayList getR() {
 		return this.temp;
 	}
 	public String getResponse() {

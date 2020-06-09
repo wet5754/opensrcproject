@@ -1,13 +1,14 @@
 package opensrcproject;
 
+import java.util.ArrayList;
+
 import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;
 import org.json.simple.parser.JSONParser;
 import org.json.simple.parser.ParseException;
 
 public class DataParser {
-	String[] p;
-	double[] r;
+	ArrayList r;
 	DataParser(String data) {
 		try {
 			JSONParser jsonParse = new JSONParser();
@@ -20,23 +21,23 @@ public class DataParser {
 			
 			JSONObject dataArray = (JSONObject) jsonParse.parse(tempString);
 			JSONArray array = (JSONArray) dataArray.get("data");
-			p = new String[30];
-			r = new double[30];
-			for(int i =0;i<30;i++) {
+			r = new ArrayList<>();
+			for(int i =0;i<array.size();i++) {
 				JSONObject resultObject = (JSONObject) array.get(i);
-				p[i] = (String) resultObject.get("period");
-				System.out.println(resultObject.get("period"));
-				r[i] = (double) resultObject.get("ratio");
+				String temp;
+				if(resultObject.get("ratio") instanceof Double)
+					temp = Double.toString((double) resultObject.get("ratio"));
+				else
+					temp = Long.toString((long) resultObject.get("ratio"));
+				r.add((double)Double.parseDouble(temp));
 				System.out.println(resultObject.get("ratio"));
 			}
 		} catch (ParseException e) {
 			e.printStackTrace();
 		}
 	}
-	String[] getP() {
-		return p;
-	}
-	double[] getR() {
+
+	ArrayList getR() {
 		return r;
 	}
 }

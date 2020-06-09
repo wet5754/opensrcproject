@@ -3,4 +3,11 @@
     <fullyQualifiedTypeName name="java.awt.Container"/>
     <fullyQualifiedTypeName name="java.awt.BorderLayout"/>
     <fullyQualifiedTypeName name="java.awt.event.ActionListener"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="org.knowm.xchart.XYSeries"/>
+    <fullyQualifiedTypeName name="org.knowm.xchart.style.markers.SeriesMarkers"/>
+    <fullyQualifiedTypeName name="org.knowm.xchart.SwingWrapper"/>
+    <fullyQualifiedTypeName name="javax.swing.JFrame"/>
+    <fullyQualifiedTypeName name="org.knowm.xchart.XChartPanel"/>
+    <fullyQualifiedTypeName name="org.json.simple.parser.JSONParser"/>
 </qualifiedTypeNameHistroy>

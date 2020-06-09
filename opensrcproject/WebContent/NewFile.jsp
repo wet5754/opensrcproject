@@ -17,7 +17,7 @@
 </head>
 <body>
 
-	<h4>사이트 방문자 성별 현황 그래프</h4>
+	<h4>네이버 통합 검색어 트랜드 그래프</h4>
 
 	<div id="Line_Controls_Chart">
 		<!-- 라인 차트 생성할 영역 -->
@@ -26,7 +26,6 @@
 		<div id="controlsArea" style="padding: 0px 20px 0px 0px;"></div>
 	</div>
 	
-	<!--  <input type="text" width=200 id="myName">-->
 	<form action="<%=request.getContextPath()%>/NewFile.jsp" method="post">
 		검색 키워드 : <input type="text" name="one"> <input type="submit"
 			value="검색">
@@ -34,11 +33,10 @@
 	<%
 	String keyword = request.getParameter("one");
 	NaverAPI t = new NaverAPI(keyword);
-	double[] ratio=new double[30];
+	Double[] ratio=new Double[31];
 	for(int i=0;i<30;i++){
-		ratio[i]=t.getR()[i];
+		ratio[i]=(Double)t.getR().get(i);
 	}
-
 	%>
 	<b></b>
 	<button id="button1" onclick="button1_click();">그래프</button>
@@ -52,8 +50,8 @@
     chartDrow : function(){
         var chartData = '';
 		var temp = new Array();
-		
-		<%for ( int s=0 ; s<30; s++ ){%>
+		// jsp배열읠 받는다.
+		<%for ( int s=0 ; s<31; s++ ){%>
 		temp.push(<%=ratio[s]%>);
 		<%}%>
 		
@@ -70,19 +68,15 @@
           var data = new google.visualization.DataTable();
           //그래프에 표시할 컬럼 추가
           data.addColumn('datetime' , '날짜');
-          data.addColumn('number'   , '남자');
-          data.addColumn('number'   , '여성');
-          data.addColumn('number'   , '전체');
+          data.addColumn('number'   , '검색량');
  
           //그래프에 표시할 데이터
           var dataRow = [];
  
-          for(var i = 0; i <= 29; i++){ //랜덤 데이터 생성
-            var total   = temp[i] + 1;
-            var man     = Math.floor(Math.random() * total) + 1;
-            var woman   = total - man;
+          for(var i = 0; i <= 30; i++){ //데이터 생성
+            var total   = temp[i];
  
-            dataRow = [new Date('2017', '09', i , '10'), man, woman , total];
+            dataRow = [new Date('2020', '04', i+1 , '10'), total];//man, woman , total];
             data.addRow(dataRow);
           }
  

@@ -1,17 +1,28 @@
 package opensrcproject;
 
-import java.io.*;
+import java.io.BufferedReader;
+import java.io.DataOutputStream;
+import java.io.IOException;
+import java.io.InputStream;
+import java.io.InputStreamReader;
 import java.net.HttpURLConnection;
 import java.net.MalformedURLException;
 import java.net.URL;
 import java.nio.charset.StandardCharsets;
+import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Map;
 
 public class NaverAPI {
 	private String responseBody;
+	private DataParser data;
+	private ArrayList temp;
 
-	NaverAPI(String keyword) {
+	public NaverAPI(String keyword) {
+		temp = new ArrayList<>();
+        for(int i=0;i<31;i++) {
+        	temp.add((double)1L);
+        }
         String clientId = "HJkHxgJ4FbnBrihGey_o"; // 애플리케이션 클라이언트 아이디
         String clientSecret = "txaBaD4bW5"; // 애플리케이션 클라이언트 시크릿
 
@@ -22,10 +33,10 @@ public class NaverAPI {
         requestHeaders.put("X-Naver-Client-Secret", clientSecret);
         requestHeaders.put("Content-Type", "application/json");
 
-        String requestBody = "{\"startDate\":\"2017-01-01\"," +
-                "\"endDate\":\"2017-04-30\"," +
+        String requestBody = "{\"startDate\":\"2020-05-01\"," +
+                "\"endDate\":\"2020-05-31\"," +
                 "\"timeUnit\":\"date\"," +
-                "\"keywordGroups\":[{\"groupName\":"+"\""+keyword+"\"," + "\"keywords\":[\""+keyword+"\",\""+keyword+"\"]}," +
+                "\"keywordGroups\":[{\"groupName\":"+"\""+keyword+"\"," + "\"keywords\":[\""+keyword+"\",\""+"china"+"\"]}," +
                 "{\"groupName\":\"영어\"," + "\"keywords\":[\"영어\",\"english\"]}]," +
                 "\"device\":\"pc\"," +
                 "\"ages\":[\"1\",\"2\"]," +
@@ -34,9 +45,22 @@ public class NaverAPI {
         responseBody = post(apiUrl, requestHeaders, requestBody);
         System.out.println(keyword+responseBody);
         
-        DataParser data = new DataParser(responseBody);
-        System.out.println(data.getR().length);
+        data = new DataParser(responseBody);
+        try {
+			Thread.sleep(1000);
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+        for(int i=0;i<data.getR().size();i++) {
+        	if(i==31) break;
+        	temp.set(i, (double)data.getR().get(i));
+        }
     }
+
+	public ArrayList getR() {
+		return this.temp;
+	}
 	public String getResponse() {
 		return this.responseBody;
 	}

@@ -987,3 +987,190 @@ java.io.FileNotFoundException: C:\Users\wet57\.m2\repository\org\apache\pdfbox\p
 2020-06-09 03:15:23,338 [Worker-435: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\wet57\eclipse-workspace\opensrcproject\opensrcproject\src\main\resources
 2020-06-09 03:15:23,339 [Worker-435: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
 2020-06-09 03:15:23,348 [Worker-435: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\wet57\eclipse-workspace\opensrcproject\opensrcproject\src\test\resources
+2020-06-09 11:03:08,716 [Worker-6: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2020-06-09 11:04:14,421 [Worker-0: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-06-09 11:04:14,430 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\wet57\eclipse-workspace\opensrcproject\opensrcproject\src\main\resources
+2020-06-09 11:04:14,432 [Worker-0: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-06-09 11:04:14,440 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\wet57\eclipse-workspace\opensrcproject\opensrcproject\src\test\resources
+2020-06-09 11:14:33,969 [Worker-21: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-06-09 11:14:33,984 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\wet57\eclipse-workspace\opensrcproject\opensrcproject\src\main\resources
+2020-06-09 11:14:33,986 [Worker-21: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-06-09 11:14:34,001 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\wet57\eclipse-workspace\opensrcproject\opensrcproject\src\test\resources
+2020-06-09 11:17:50,534 [Worker-20: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-06-09 11:17:50,543 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\wet57\eclipse-workspace\opensrcproject\opensrcproject\src\main\resources
+2020-06-09 11:17:50,544 [Worker-20: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-06-09 11:17:50,553 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\wet57\eclipse-workspace\opensrcproject\opensrcproject\src\test\resources
+2020-06-09 11:19:37,870 [Worker-0: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-06-09 11:19:37,879 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\wet57\eclipse-workspace\opensrcproject\opensrcproject\src\main\resources
+2020-06-09 11:19:37,880 [Worker-0: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-06-09 11:19:37,890 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\wet57\eclipse-workspace\opensrcproject\opensrcproject\src\test\resources
+2020-06-09 11:21:19,211 [Worker-25: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-06-09 11:21:19,220 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\wet57\eclipse-workspace\opensrcproject\opensrcproject\src\main\resources
+2020-06-09 11:21:19,221 [Worker-25: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-06-09 11:21:19,231 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\wet57\eclipse-workspace\opensrcproject\opensrcproject\src\test\resources
+2020-06-09 11:23:02,678 [Worker-27: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-06-09 11:23:02,688 [Worker-27: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\wet57\eclipse-workspace\opensrcproject\opensrcproject\src\main\resources
+2020-06-09 11:23:02,690 [Worker-27: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-06-09 11:23:02,700 [Worker-27: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\wet57\eclipse-workspace\opensrcproject\opensrcproject\src\test\resources
+2020-06-09 11:36:00,819 [Worker-35: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-06-09 11:36:00,830 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\wet57\eclipse-workspace\opensrcproject\opensrcproject\src\main\resources
+2020-06-09 11:36:00,832 [Worker-35: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-06-09 11:36:00,846 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\wet57\eclipse-workspace\opensrcproject\opensrcproject\src\test\resources
+2020-06-09 11:37:38,711 [Worker-29: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-06-09 11:37:38,720 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\wet57\eclipse-workspace\opensrcproject\opensrcproject\src\main\resources
+2020-06-09 11:37:38,723 [Worker-29: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-06-09 11:37:38,731 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\wet57\eclipse-workspace\opensrcproject\opensrcproject\src\test\resources
+2020-06-09 11:39:52,130 [Worker-38: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-06-09 11:39:52,140 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\wet57\eclipse-workspace\opensrcproject\opensrcproject\src\main\resources
+2020-06-09 11:39:52,142 [Worker-38: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-06-09 11:39:52,152 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\wet57\eclipse-workspace\opensrcproject\opensrcproject\src\test\resources
+2020-06-09 11:41:32,668 [Worker-38: Launching main] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-06-09 11:41:32,679 [Worker-38: Launching main] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\wet57\eclipse-workspace\opensrcproject\opensrcproject_test\src\main\resources
+2020-06-09 11:41:32,680 [Worker-38: Launching main] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-06-09 11:41:32,690 [Worker-38: Launching main] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\wet57\eclipse-workspace\opensrcproject\opensrcproject_test\src\test\resources
+2020-06-09 11:41:33,368 [Worker-37: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-06-09 11:41:33,381 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\wet57\eclipse-workspace\opensrcproject\opensrcproject_test\src\main\resources
+2020-06-09 11:41:33,382 [Worker-37: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-06-09 11:41:33,392 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\wet57\eclipse-workspace\opensrcproject\opensrcproject_test\src\test\resources
+2020-06-09 11:42:32,776 [Worker-29: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-06-09 11:42:32,788 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\wet57\eclipse-workspace\opensrcproject\opensrcproject\src\main\resources
+2020-06-09 11:42:32,789 [Worker-29: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-06-09 11:42:32,798 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\wet57\eclipse-workspace\opensrcproject\opensrcproject\src\test\resources
+2020-06-09 11:44:58,719 [Worker-37: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-06-09 11:44:58,729 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\wet57\eclipse-workspace\opensrcproject\opensrcproject\src\main\resources
+2020-06-09 11:44:58,730 [Worker-37: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-06-09 11:44:58,739 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\wet57\eclipse-workspace\opensrcproject\opensrcproject\src\test\resources
+2020-06-09 11:47:28,021 [Worker-41: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-06-09 11:47:28,032 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\wet57\eclipse-workspace\opensrcproject\opensrcproject\src\main\resources
+2020-06-09 11:47:28,034 [Worker-41: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-06-09 11:47:28,045 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\wet57\eclipse-workspace\opensrcproject\opensrcproject\src\test\resources
+2020-06-09 11:48:25,977 [Worker-44: Launching main] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-06-09 11:48:25,987 [Worker-44: Launching main] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\wet57\eclipse-workspace\opensrcproject\opensrcproject_test\src\main\resources
+2020-06-09 11:48:25,989 [Worker-44: Launching main] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-06-09 11:48:25,998 [Worker-44: Launching main] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\wet57\eclipse-workspace\opensrcproject\opensrcproject_test\src\test\resources
+2020-06-09 11:49:41,722 [Worker-43: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-06-09 11:49:41,731 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\wet57\eclipse-workspace\opensrcproject\opensrcproject_test\src\main\resources
+2020-06-09 11:49:41,733 [Worker-43: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-06-09 11:49:41,742 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\wet57\eclipse-workspace\opensrcproject\opensrcproject_test\src\test\resources
+2020-06-09 11:50:14,359 [Worker-37: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-06-09 11:50:14,370 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\wet57\eclipse-workspace\opensrcproject\opensrcproject_test\src\main\resources
+2020-06-09 11:50:14,372 [Worker-37: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-06-09 11:50:14,381 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\wet57\eclipse-workspace\opensrcproject\opensrcproject_test\src\test\resources
+2020-06-09 11:50:33,293 [Worker-43: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-06-09 11:50:33,302 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\wet57\eclipse-workspace\opensrcproject\opensrcproject_test\src\main\resources
+2020-06-09 11:50:33,303 [Worker-43: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-06-09 11:50:33,312 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\wet57\eclipse-workspace\opensrcproject\opensrcproject_test\src\test\resources
+2020-06-09 11:52:47,963 [Worker-43: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-06-09 11:52:47,972 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\wet57\eclipse-workspace\opensrcproject\opensrcproject\src\main\resources
+2020-06-09 11:52:47,973 [Worker-43: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-06-09 11:52:47,982 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\wet57\eclipse-workspace\opensrcproject\opensrcproject\src\test\resources
+2020-06-09 12:07:04,293 [Worker-33: Launching main] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-06-09 12:07:04,302 [Worker-33: Launching main] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\wet57\eclipse-workspace\opensrcproject\opensrcproject_test\src\main\resources
+2020-06-09 12:07:04,303 [Worker-33: Launching main] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-06-09 12:07:04,312 [Worker-33: Launching main] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\wet57\eclipse-workspace\opensrcproject\opensrcproject_test\src\test\resources
+2020-06-09 12:12:24,671 [Worker-55: Launching main] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-06-09 12:12:24,681 [Worker-55: Launching main] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\wet57\eclipse-workspace\opensrcproject\opensrcproject_test\src\main\resources
+2020-06-09 12:12:24,682 [Worker-55: Launching main] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-06-09 12:12:24,691 [Worker-55: Launching main] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\wet57\eclipse-workspace\opensrcproject\opensrcproject_test\src\test\resources
+2020-06-09 12:13:24,409 [Worker-55: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-06-09 12:13:24,418 [Worker-55: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\wet57\eclipse-workspace\opensrcproject\opensrcproject_test\src\main\resources
+2020-06-09 12:13:24,419 [Worker-55: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-06-09 12:13:24,429 [Worker-55: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\wet57\eclipse-workspace\opensrcproject\opensrcproject_test\src\test\resources
+2020-06-09 12:13:59,059 [Worker-48: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-06-09 12:13:59,071 [Worker-48: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\wet57\eclipse-workspace\opensrcproject\opensrcproject\src\main\resources
+2020-06-09 12:13:59,072 [Worker-48: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-06-09 12:13:59,084 [Worker-48: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\wet57\eclipse-workspace\opensrcproject\opensrcproject\src\test\resources
+2020-06-09 12:15:16,316 [Worker-56: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-06-09 12:15:16,327 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\wet57\eclipse-workspace\opensrcproject\opensrcproject\src\main\resources
+2020-06-09 12:15:16,328 [Worker-56: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-06-09 12:15:16,338 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\wet57\eclipse-workspace\opensrcproject\opensrcproject\src\test\resources
+2020-06-09 12:19:27,502 [Worker-57: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-06-09 12:19:27,511 [Worker-57: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\wet57\eclipse-workspace\opensrcproject\opensrcproject_test\src\main\resources
+2020-06-09 12:19:27,512 [Worker-57: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-06-09 12:19:27,521 [Worker-57: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\wet57\eclipse-workspace\opensrcproject\opensrcproject_test\src\test\resources
+2020-06-09 12:19:53,108 [Worker-57: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-06-09 12:19:53,117 [Worker-57: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\wet57\eclipse-workspace\opensrcproject\opensrcproject\src\main\resources
+2020-06-09 12:19:53,118 [Worker-57: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-06-09 12:19:53,127 [Worker-57: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\wet57\eclipse-workspace\opensrcproject\opensrcproject\src\test\resources
+2020-06-09 12:19:54,276 [Worker-61: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-06-09 12:19:54,284 [Worker-61: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\wet57\eclipse-workspace\opensrcproject\opensrcproject_test\src\main\resources
+2020-06-09 12:19:54,285 [Worker-61: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-06-09 12:19:54,294 [Worker-61: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\wet57\eclipse-workspace\opensrcproject\opensrcproject_test\src\test\resources
+2020-06-09 12:23:07,804 [Worker-64: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-06-09 12:23:07,815 [Worker-64: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\wet57\eclipse-workspace\opensrcproject\opensrcproject\src\main\resources
+2020-06-09 12:23:07,816 [Worker-64: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-06-09 12:23:07,826 [Worker-64: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\wet57\eclipse-workspace\opensrcproject\opensrcproject\src\test\resources
+2020-06-09 12:23:51,626 [Worker-64: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-06-09 12:23:51,636 [Worker-64: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\wet57\eclipse-workspace\opensrcproject\opensrcproject\src\main\resources
+2020-06-09 12:23:51,638 [Worker-64: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-06-09 12:23:51,648 [Worker-64: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\wet57\eclipse-workspace\opensrcproject\opensrcproject\src\test\resources
+2020-06-09 12:27:04,784 [Worker-48: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-06-09 12:27:04,795 [Worker-48: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\wet57\eclipse-workspace\opensrcproject\opensrcproject\src\main\resources
+2020-06-09 12:27:04,797 [Worker-48: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-06-09 12:27:04,807 [Worker-48: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\wet57\eclipse-workspace\opensrcproject\opensrcproject\src\test\resources
+2020-06-09 12:28:09,914 [Worker-71: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-06-09 12:28:09,923 [Worker-71: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\wet57\eclipse-workspace\opensrcproject\opensrcproject\src\main\resources
+2020-06-09 12:28:09,925 [Worker-71: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-06-09 12:28:09,934 [Worker-71: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\wet57\eclipse-workspace\opensrcproject\opensrcproject\src\test\resources
+2020-06-09 12:28:33,989 [Worker-71: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-06-09 12:28:34,002 [Worker-71: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\wet57\eclipse-workspace\opensrcproject\opensrcproject\src\main\resources
+2020-06-09 12:28:34,004 [Worker-71: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-06-09 12:28:34,018 [Worker-71: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\wet57\eclipse-workspace\opensrcproject\opensrcproject\src\test\resources
+2020-06-09 12:29:54,018 [Worker-75: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-06-09 12:29:54,029 [Worker-75: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\wet57\eclipse-workspace\opensrcproject\opensrcproject\src\main\resources
+2020-06-09 12:29:54,030 [Worker-75: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-06-09 12:29:54,040 [Worker-75: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\wet57\eclipse-workspace\opensrcproject\opensrcproject\src\test\resources
+2020-06-09 12:31:55,485 [Worker-71: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-06-09 12:31:55,495 [Worker-71: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\wet57\eclipse-workspace\opensrcproject\opensrcproject\src\main\resources
+2020-06-09 12:31:55,496 [Worker-71: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-06-09 12:31:55,505 [Worker-71: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\wet57\eclipse-workspace\opensrcproject\opensrcproject\src\test\resources
+2020-06-09 12:35:09,194 [Worker-75: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-06-09 12:35:09,204 [Worker-75: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\wet57\eclipse-workspace\opensrcproject\opensrcproject\src\main\resources
+2020-06-09 12:35:09,205 [Worker-75: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-06-09 12:35:09,215 [Worker-75: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\wet57\eclipse-workspace\opensrcproject\opensrcproject\src\test\resources
+2020-06-09 12:37:35,892 [Worker-78: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-06-09 12:37:35,902 [Worker-78: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\wet57\eclipse-workspace\opensrcproject\opensrcproject\src\main\resources
+2020-06-09 12:37:35,903 [Worker-78: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-06-09 12:37:35,913 [Worker-78: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\wet57\eclipse-workspace\opensrcproject\opensrcproject\src\test\resources
+2020-06-09 12:42:54,614 [Worker-82: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-06-09 12:42:54,625 [Worker-82: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\wet57\eclipse-workspace\opensrcproject\opensrcproject\src\main\resources
+2020-06-09 12:42:54,626 [Worker-82: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-06-09 12:42:54,636 [Worker-82: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\wet57\eclipse-workspace\opensrcproject\opensrcproject\src\test\resources
+2020-06-09 12:53:23,775 [Worker-88: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-06-09 12:53:23,785 [Worker-88: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\wet57\eclipse-workspace\opensrcproject\opensrcproject\src\main\resources
+2020-06-09 12:53:23,786 [Worker-88: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-06-09 12:53:23,795 [Worker-88: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\wet57\eclipse-workspace\opensrcproject\opensrcproject\src\test\resources
+2020-06-09 12:56:16,541 [Worker-79: Launching main] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-06-09 12:56:16,551 [Worker-79: Launching main] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\wet57\eclipse-workspace\opensrcproject\opensrcproject_test\src\main\resources
+2020-06-09 12:56:16,553 [Worker-79: Launching main] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-06-09 12:56:16,563 [Worker-79: Launching main] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\wet57\eclipse-workspace\opensrcproject\opensrcproject_test\src\test\resources
+2020-06-09 13:09:28,047 [Worker-94: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-06-09 13:09:28,056 [Worker-94: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\wet57\eclipse-workspace\opensrcproject\opensrcproject\src\main\resources
+2020-06-09 13:09:28,057 [Worker-94: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-06-09 13:09:28,066 [Worker-94: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\wet57\eclipse-workspace\opensrcproject\opensrcproject\src\test\resources
+2020-06-09 13:10:48,704 [Worker-96: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-06-09 13:10:48,714 [Worker-96: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\wet57\eclipse-workspace\opensrcproject\opensrcproject\src\main\resources
+2020-06-09 13:10:48,715 [Worker-96: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-06-09 13:10:48,724 [Worker-96: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\wet57\eclipse-workspace\opensrcproject\opensrcproject\src\test\resources
+2020-06-09 13:19:45,666 [Worker-105: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-06-09 13:19:45,675 [Worker-105: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\wet57\eclipse-workspace\opensrcproject\opensrcproject\src\main\resources
+2020-06-09 13:19:45,676 [Worker-105: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-06-09 13:19:45,685 [Worker-105: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\wet57\eclipse-workspace\opensrcproject\opensrcproject\src\test\resources
+2020-06-09 13:22:11,693 [Worker-103: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-06-09 13:22:11,702 [Worker-103: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\wet57\eclipse-workspace\opensrcproject\opensrcproject\src\main\resources
+2020-06-09 13:22:11,704 [Worker-103: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-06-09 13:22:11,713 [Worker-103: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\wet57\eclipse-workspace\opensrcproject\opensrcproject\src\test\resources
+2020-06-09 13:22:28,320 [Worker-107: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-06-09 13:22:28,330 [Worker-107: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\wet57\eclipse-workspace\opensrcproject\opensrcproject\src\main\resources
+2020-06-09 13:22:28,331 [Worker-107: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-06-09 13:22:28,340 [Worker-107: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\wet57\eclipse-workspace\opensrcproject\opensrcproject\src\test\resources
+2020-06-09 13:28:00,280 [Worker-103: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-06-09 13:28:00,291 [Worker-103: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\wet57\eclipse-workspace\opensrcproject\opensrcproject\src\main\resources
+2020-06-09 13:28:00,292 [Worker-103: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-06-09 13:28:00,301 [Worker-103: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\wet57\eclipse-workspace\opensrcproject\opensrcproject\src\test\resources
+2020-06-09 13:33:18,262 [Worker-114: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-06-09 13:33:18,272 [Worker-114: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\wet57\eclipse-workspace\opensrcproject\opensrcproject\src\main\resources
+2020-06-09 13:33:18,273 [Worker-114: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-06-09 13:33:18,283 [Worker-114: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\wet57\eclipse-workspace\opensrcproject\opensrcproject\src\test\resources
+2020-06-09 13:34:25,445 [Worker-115: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-06-09 13:34:25,455 [Worker-115: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\wet57\eclipse-workspace\opensrcproject\opensrcproject\src\main\resources
