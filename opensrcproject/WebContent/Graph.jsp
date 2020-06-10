@@ -31,12 +31,15 @@
 			value="검색">
 	</form>
 	<%
-	String keyword = request.getParameter("one");
-	NaverAPI t = new NaverAPI(keyword);
-	Double[] ratio=new Double[31];
-	for(int i=0;i<30;i++){
-		ratio[i]=(Double)t.getR().get(i);
-	}
+		String keyword = request.getParameter("one");
+		NaverAPI t = new NaverAPI(keyword);
+		Double[] ratio = new Double[244];////////////
+		for (int i = 0; i < 244; i++) {//////////////
+			if (i != 0 && (Double)t.getR().get(i) == 1.0)
+				ratio[i] = ratio[i - 1];
+			else
+				ratio[i] = (Double) t.getR().get(i);
+		}
 	%>
 	<b></b>
 	<button id="button1" onclick="button1_click();">그래프</button>
@@ -51,7 +54,7 @@
         var chartData = '';
 		var temp = new Array();
 		// jsp배열읠 받는다.
-		<%for ( int s=0 ; s<31; s++ ){%>
+		<%for ( int s=0 ; s<244; s++ ){%>/////////////////
 		temp.push(<%=ratio[s]%>);
 		<%}%>
 		
@@ -73,10 +76,10 @@
           //그래프에 표시할 데이터
           var dataRow = [];
  
-          for(var i = 0; i <= 30; i++){ //데이터 생성
-            var total   = temp[i];
+          for(var i = 0; i <= 243; i++){ //데이터 생성///////////////////
+           // var total   = temp[i];
  
-            dataRow = [new Date('2020', '04', i+1 , '10'), total];//man, woman , total];
+            dataRow = [new Date('2019', '9', i+1 , '10'), temp[i]];//man, woman , total];
             data.addRow(dataRow);
           }
  

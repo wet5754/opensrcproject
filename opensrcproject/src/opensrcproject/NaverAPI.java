@@ -12,6 +12,7 @@ import java.nio.charset.StandardCharsets;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Map;
+import java.util.Random;
 
 public class NaverAPI {
 	private String responseBody;
@@ -20,7 +21,7 @@ public class NaverAPI {
 
 	public NaverAPI(String keyword) {
 		temp = new ArrayList<>();
-        for(int i=0;i<31;i++) {
+        for(int i=0;i<244;i++) {
         	temp.add((double)1.0);
         }
         String clientId = "HJkHxgJ4FbnBrihGey_o"; // 애플리케이션 클라이언트 아이디
@@ -40,7 +41,7 @@ public class NaverAPI {
         	keywordarr =keyword.split(" ");  
         }
         
-        String requestBody = "{\"startDate\":\"2020-05-01\"," +
+        String requestBody = "{\"startDate\":\"2019-10-01\"," +
                 "\"endDate\":\"2020-05-31\"," +
                 "\"timeUnit\":\"date\","+"\"keywordGroups\":[{\"groupName\":"+"\""+keywordarr[0]+"\"," + "\"keywords\":[\"";
         for(int i =0;i<keywordarr.length;i++) 
@@ -57,10 +58,23 @@ public class NaverAPI {
         data = new DataParser(responseBody);
 
         for(int i=0;i<data.getR().size();i++) {
-        	if(i==31) break;
+        	if(i==244) break;
+//        	if((double)data.getR().get(i)==1.0) tempcount++;
         	temp.set(i, (double)data.getR().get(i));
         }
-
+        for(int i=0;i<244;i++) {
+        	if((double)temp.get(i)==1.0) {
+        		temp.remove(i);
+            	long seed = System.currentTimeMillis();
+            	Random ran = new Random(seed-i);
+            	int c = ran.nextInt(i);
+//            	System.out.println(temp.get(c)+"-----------------------"+temp.size());
+            	temp.add(c, temp.get(c));
+//            	System.out.println(temp.get(c)+"======================="+temp.size());
+        	}
+        }
+//        System.out.println(data.getR().size());
+//        System.out.println(temp.size());
 	}
 
 	public ArrayList getR() {
